@@ -1,0 +1,22 @@
+Algoritma: Hargaa_Bayar_03
+{dibaca harga barang dan jumlah barang dari piranti masukkan. Hitunglah jumlah diskon}
+Deklarasi:
+harga, jumlah : int dis=0,5, total, bayar, jmlDis
+merk buku, jumlah halaman buku : String
+
+Deskripsi:
+print "Merk Buku"
+read merkbuku
+print "Masukkan jumlah halaman buku"
+read jmlHalbuku
+print "Masukkan harga barang yang dibeli"
+read harga
+print "Masukkan Jumlah jumlah yang dibeli"
+read jumlah
+total = harga*jumlah
+jmlDis=total*dis
+bayar=total-jmlDis
+print "Diskon yang anda dapatkan adalah"
+print jmlDiskon
+print "Jumlah yang harus dibayar adalah"
+print bayar
