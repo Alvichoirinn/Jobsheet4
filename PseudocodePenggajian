@@ -1,0 +1,19 @@
+Algoritma: Penggajian_restoran
+Deklarasi:
+JamLembur: int
+NamaKaryawan: string
+GajiPokok, GajiLembur, GajiTotal: double
+Deskripsi:
+1. print "Masukkan NamaKaryawan!"
+2. read NamaKaryawan
+3. print "Masukkan GajiPokok!"
+4. read GajiPokok
+5. print "Masukkan JamLembur!"
+6. read JamLembur
+7. gajiLembur = jamLembur * 20;
+8. gajiTotal = gajiPokok + gajiLembur;
+9. print NaamaKaryawan
+10.print gajiPokok
+11.print gajiLembur
+12.print gajiTotal
+13.end
